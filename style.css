@@ -32,6 +32,7 @@ nav {
     height: 80px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -42,6 +43,7 @@ nav {
     width: 90%;
     height: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 10%;
 }
@@ -83,6 +85,7 @@ nav {
 .first {
     height: 70%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
@@ -395,6 +398,7 @@ nav {
 
 .making_carddiv {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -549,6 +553,7 @@ footer {
     justify-content: space-evenly;
     position: absolute;
     top: -100px;
+    left: 40%;
     background-color: #FFFFFF;
     box-shadow: 0px 8px 30px #D414431A;
     height: 95%;
@@ -585,7 +590,6 @@ footer {
     background-color: #F0D1A5;
     color: #FFFFFF;
     padding: 3px 10px;
-    height: 26px;
     width: 60px;
     border: none;
     border-radius: 6px;
@@ -597,7 +601,6 @@ footer {
     background-color: #C2E297;
     color: #FFFFFF;
     padding: 3px 10px;
-    height: 26px;
     width: 120px;
     border: none;
     border-radius: 6px;
@@ -774,4 +777,830 @@ footer {
     font-family: dm sans;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media (min-width: 2500px) {
+    .navbar {
+        width: 65%;
+    }
+
+    .navbar li {
+        font-size: 18px;
+    }
+
+    .first {
+        width: 14%;
+        left: 20%;
+    }
+
+    .big_circle {
+        width: 65%;
+    }
+
+    .third {
+        left: 68%;
+    }
+
+    .girl_picture {
+        left: 50%;
+        width: 12%;
+    }
+
+    .content_heading2 {
+        font-size: 52px;
+    }
+
+    .content_heading {
+        font-size: 60px;
+    }
+
+    .cards {
+        width: 20%;
+        height: 60%;
+        gap: 100px;
+        justify-content: flex-end;
+        padding-bottom: 150px;
+    }
+
+    .paragragh_div {
+        width: 50%;
+    }
+
+    .pic1 {
+        top: -22%;
+    }
+
+    .footer_cardone,
+    .footer_cardtwo,
+    .footer_cardthree {
+        height: 110%;
+        width: 15%;
+        top: -190px;
+    }
+
+    .footer_cardone {
+        left: 26%;
+    }
+
+    .footer_cardtwo {
+        left: 43%;
+    }
+
+    .footer_cardthree {
+        left: 60%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .navbar {
+        padding: 0px 15px;
+        width: 100%;
+    }
+
+    .navbar li {
+        font-size: 14px;
+    }
+
+    .first {
+        left: 5%;
+    }
+
+    .hero_heading {
+        font-size: 24px;
+    }
+
+    .passion {
+        font-size: 38px;
+    }
+
+    .hero_btns {
+        padding: 3px 10px;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .hero_text {
+        font-size: 10px;
+    }
+
+    .card_div {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .cards {
+        gap: 40px;
+        width: 30%;
+    }
+
+    .paragragh_div {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .footer_cardone,
+    .footer_cardtwo,
+    .footer_cardthree {
+        width: 23%;
+        height: 80%;
+    }
+
+    .footer_cardone {
+        left: 15%;
+    }
+
+    .footer_cardtwo {
+        left: 39%;
+    }
+
+    .footer_cardthree {
+        left: 63%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        height: 90vh;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 40px;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .buy_btn {
+        padding: 5px 15px;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .hero_heading {
+        font-size: 20px;
+    }
+
+    .passion {
+        font-size: 30px;
+    }
+
+    .hero_btns {
+        width: 100%;
+    }
+
+    .hero_btns button {
+        padding: 3px 18px;
+        font-size: 9px;
+    }
+
+    .milk {
+        width: 110px;
+        height: 130px;
+    }
+
+    .hero_text {
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .big_circle {
+        height: 80%;
+    }
+
+    .big_circle img {
+        top: 14%;
+        height: 130%;
+    }
+
+    .cards {
+        padding-bottom: 50px;
+        gap: 35px;
+        justify-content: flex-end;
+    }
+
+    .cards h1 {
+        font-size: 26px;
+    }
+
+    .paragragh_div {
+        width: 60%;
+        font-size: 10px;
+    }
+
+    .pic1 {
+        top: -30%;
+        width: 90%;
+    }
+
+    .bg_image {
+        background-image: none;
+        background-color: #FFF5F6;
+    }
+
+    .trade {
+        font-size: 22px;
+    }
+
+    .madeh {
+        font-size: 36px;
+    }
+
+    .make_text h3 {
+        font-size: 12px;
+    }
+
+    .make_text p {
+        font-size: 10px;
+    }
+
+    .making_cards img {
+        width: 15%;
+    }
+
+    .icon_heading {
+        font-size: 15px;
+    }
+
+    .icon_text {
+        font-size: 10px;
+    }
+
+    .img_text {
+        width: 100%;
+    }
+
+    .img_text img {
+        width: 10%;
+        height: 60%;
+    }
+
+    .ttext {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .footer_cardone,
+    .footer_cardtwo,
+    .footer_cardthree {
+        height: 76%;
+        width: 29%;
+    }
+
+    .footer_cardone {
+        left: 6%;
+    }
+
+    .footer_cardtwo {
+        left: 36%;
+    }
+
+    .footer_cardthree {
+        left: 66%;
+    }
+
+    .tag {
+        width: 50px;
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .tag2 {
+        padding: 5px 10px;
+        width: 90px;
+        font-size: 10px;
+    }
+
+    .first_floor p {
+        font-size: 12px;
+    }
+
+    .second_floor p {
+        font-size: 13px;
+    }
+
+    .three_floor p {
+        font-size: 12px;
+    }
+
+    .intro_divI {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro_divI h2 {
+        font-size: 18px;
+    }
+
+    .intro_divI h1 {
+        font-size: 38px;
+    }
+
+    .intro_divII {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 430px) {
+    .header {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0px 20px;
+    }
+
+    .navbar li {
+        display: none;
+    }
+
+    .big_circle img {
+        top: 4%;
+        height: 100%;
+    }
+
+    .girl_pic {
+        display: none;
+    }
+
+    .milk {
+        display: none;
+    }
+
+    .hero_text {
+        display: none;
+    }
+
+    .third {
+        display: none;
+    }
+
+    .first {
+        width: 50%;
+        left: 5px;
+    }
+
+    .hero_btns {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 60px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .hero_btns button {
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+
+    .hero_heading {
+        width: 150%;
+        position: relative;
+        z-index: 150;
+        font-size: 28px;
+    }
+
+    .passion {
+        font-size: 48px;
+        z-index: 150;
+        margin-bottom: 20px;
+    }
+
+    .big_circle {
+        position: relative;
+        right: 18%;
+        top: 11%;
+        width: 210%;
+        height: 100%;
+    }
+
+    .content {
+        height: 1600px;
+    }
+
+    .card_div {
+        margin-top: 250px;
+        gap: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .cards {
+        gap: 50px;
+        width: 70%;
+        min-height: 460px;
+        margin: 30px auto;
+    }
+
+    .paragragh_div {
+        width: 65%;
+        font-size: 14px;
+    }
+
+    .pic1 {
+        top: -40%;
+    }
+
+    .making {
+        margin-top: 500px;
+        height: 2000px;
+    }
+
+    .bg_image {
+        margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .make_text {
+        width: 60%;
+    }
+
+    .make_div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .making_cards {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .making_cards h1 {
+        font-size: 40px;
+    }
+
+    .img_text {
+        width: 100%;
+    }
+
+    .ttext {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer_divfirst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .my_div {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_cardone,
+    .footer_cardtwo,
+    .footer_cardthree {
+        position: static;
+        z-index: 100;
+        margin: 50px auto;
+        width: 70%;
+        min-height: 450px;
+    }
+
+    .loc2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_divsecond {
+        background-color: #FFF5F6;
+    }
+
+    .footer_intro {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFF5F6;
+    }
+
+    .intro_divI {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro_divII {
+        padding-right: 70px;
+        width: 100%;
+        margin-bottom: 0px;
+        background-color: #FFF5F6;
+    }
+
+    .copyright {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    .header {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0px 20px;
+    }
+
+    .navbar li {
+        display: none;
+    }
+
+    .big_circle img {
+        top: 9.3%;
+        height: 100%;
+    }
+
+    .girl_pic {
+        display: none;
+    }
+
+    .milk {
+        display: none;
+    }
+
+    .hero_text {
+        display: none;
+    }
+
+    .third {
+        display: none;
+    }
+
+    .first {
+        width: 50%;
+        left: 5px;
+    }
+
+    .hero_btns {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 60px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .hero_btns button {
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .hero_heading {
+        width: 150%;
+        position: relative;
+        z-index: 150;
+        font-size: 20px;
+    }
+
+    .passion {
+        font-size: 34px;
+        z-index: 150;
+        margin-bottom: 20px;
+    }
+
+    .big_circle {
+        position: relative;
+        right: 40%;
+        top: 11%;
+        width: 250%;
+        height: 95%;
+    }
+
+    .content {
+        height: 1600px;
+    }
+
+    .card_div {
+        margin-top: 250px;
+        gap: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .cards {
+        gap: 35px;
+        width: 70%;
+        min-height: 460px;
+        margin: 30px auto;
+    }
+
+    .paragragh_div {
+        width: 60%;
+        font-size: 10px;
+    }
+
+    .pic1 {
+        top: -26%;
+    }
+
+    .making {
+        margin-top: 500px;
+        height: 2000px;
+    }
+
+    .bg_image {
+        margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .make_text {
+        width: 60%;
+    }
+
+    .make_div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .making_cards {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .making_cards h1 {
+        font-size: 40px;
+    }
+
+    .img_text {
+        width: 100%;
+    }
+
+    .ttext {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer_divfirst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .my_div {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_cardone,
+    .footer_cardtwo,
+    .footer_cardthree {
+        position: static;
+        z-index: 100;
+        margin: 50px auto;
+        width: 70%;
+        min-height: 450px;
+    }
+
+    .loc2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_divsecond {
+        background-color: #FFF5F6;
+    }
+
+    .footer_intro {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFF5F6;
+    }
+
+    .intro_divI {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro_divII {
+        padding-right: 60px;
+        width: 100%;
+        margin-bottom: 0px;
+        background-color: #FFF5F6;
+    }
+
+    .copyright {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+
+/* footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        height: 2500px;
+        background-color: #FFF5F6;
+        justify-content: flex-start;
+        padding-bottom: 0px;
+    }
+
+    .footer_divfirst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        background-color: #FFF5F6;
+        margin-bottom: 200px;
+    }
+
+    .footer_divsecond {
+        background-color: #FFF5F6;
+    }
+
+    .footer_cardone,
+    .footer_cardtwo,
+    .footer_cardthree {
+        position: static;
+        margin: 50px auto;
+        z-index: 100;
+        width: 70%;
+        min-height: 450px;
+    }
+
+    .loc2 {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+        position: static;
+        z-index: 100;
+    }
+
+    .footer_intro {
+        margin-top: 200px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFF5F6;
+        margin-bottom: 100px;
+    }
+
+    .intro_divI {
+        text-align: center;
+        width: 100%;
+    }
+
+    .intro_divII {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .iccons_div {
+        text-align: center;
+    }
+
+    .tttext_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-top: 150px;
+        margin-bottom: 0px;
+    } */
 }
