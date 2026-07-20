@@ -266,8 +266,8 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    gap: 40px;
-    height: 80%;
+    gap: 60px;
+    height: 600px;
     width: 24%;
     padding-bottom: 50px;
     margin-bottom: 10px;
@@ -848,6 +848,66 @@ footer {
 
     .footer_cardthree {
         left: 60%;
+    }
+}
+
+/* @media (max-width: 2400px) {
+
+    .hero_text {
+        font-size: 14px;
+        width: 40%;
+    }
+
+    .cards {
+        gap: 60px;
+        height: 600px;
+    }
+
+    .paragragh_div {
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .pic1 {
+        top: -200px;
+    }
+
+    .make_text {
+        width: 20%;
+    }
+
+    .img_text{
+        justify-content: center;
+    }
+} */
+
+@media (min-width: 1550px) {
+
+    .hero_text {
+        font-size: 14px;
+        width: 40%;
+    }
+
+    .cards {
+        gap: 60px;
+        height: 600px;
+    }
+
+    .paragragh_div {
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .pic1 {
+        top: -200px;
+    }
+
+    .make_text {
+        width: 20%;
+    }
+
+    .img_text{
+        justify-content: center;
     }
 }
 
@@ -1532,85 +1592,4 @@ footer {
         margin-top: 0px;
         margin-bottom: 0px;
     }
-}
-
-
-/* footer {
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        padding: 0px;
-        height: 2500px;
-        background-color: #FFF5F6;
-        justify-content: flex-start;
-        padding-bottom: 0px;
-    }
-
-    .footer_divfirst {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 50px;
-        background-color: #FFF5F6;
-        margin-bottom: 200px;
-    }
-
-    .footer_divsecond {
-        background-color: #FFF5F6;
-    }
-
-    .footer_cardone,
-    .footer_cardtwo,
-    .footer_cardthree {
-        position: static;
-        margin: 50px auto;
-        z-index: 100;
-        width: 70%;
-        min-height: 450px;
-    }
-
-    .loc2 {
-        margin-top: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 100px;
-        position: static;
-        z-index: 100;
-    }
-
-    .footer_intro {
-        margin-top: 200px;
-        display: flex;
-        gap: 20px;
-        flex-direction: column;
-        align-items: center;
-        background-color: #FFF5F6;
-        margin-bottom: 100px;
-    }
-
-    .intro_divI {
-        text-align: center;
-        width: 100%;
-    }
-
-    .intro_divII {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .iccons_div {
-        text-align: center;
-    }
-
-    .tttext_div {
-        display: flex;
-        justify-content: center;
-    }
-
-    .copyright {
-        margin-top: 150px;
-        margin-bottom: 0px;
-    } */
 }
