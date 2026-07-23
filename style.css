@@ -10,6 +10,9 @@
 
 button:hover {
     cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    box-shadow: 1px 1px 10px #D9D9D9;
+    transform: scale(1.05);
 }
 
 img:hover {
@@ -274,6 +277,12 @@ nav {
     border-radius: 24px;
 }
 
+.cards:hover {
+    cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    transform: scale(1.05);
+}
+
 .firstcard {
     background-color: #FFB8CA;
 }
@@ -423,6 +432,16 @@ nav {
     justify-content: flex-start;
 }
 
+.making_cards:hover {
+    padding: 20px;
+    border-radius: 22px;
+    height: 300px;
+    cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    box-shadow: 1px 1px 10px #D9D9D9;
+    transform: scale(1.05);
+}
+
 .icon_heading {
     font-size: 28px;
     color: #D41443;
@@ -443,6 +462,12 @@ nav {
 
 .grid_image img {
     width: 100%;
+}
+
+.grid_image img:hover {
+    cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    transform: scale(1.05);
 }
 
 .second_description {
@@ -529,6 +554,27 @@ footer {
     justify-content: space-around;
     height: 60%;
     width: 100%;
+}
+
+.footer_cardone:hover {
+    cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    box-shadow: 1px 1px 10px #D9D9D9;
+    transform: scale(1.05);
+}
+
+.footer_cardtwo:hover {
+    cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    box-shadow: 1px 1px 10px #D9D9D9;
+    transform: scale(1.05);
+}
+
+.footer_cardthree:hover {
+    cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    box-shadow: 1px 1px 10px #D9D9D9;
+    transform: scale(1.05);
 }
 
 .footer_cardone {
@@ -731,6 +777,16 @@ footer {
     color: #FEA5BB;
 }
 
+#ff:hover {
+    cursor: pointer;
+    transition: 2.6ms ease-in-out;
+    transform: scale(1.5);
+}
+
+.tttext_div p:hover {
+    cursor: pointer;
+}
+
 .intro_divI h2 {
     text-transform: uppercase;
     margin-top: 90px;
@@ -851,11 +907,30 @@ footer {
     }
 }
 
-/* @media (max-width: 2400px) {
+@media (min-width: 1690px) {
+
+    .hero_text p {
+        font-size: 11px;
+    }
+
+    .big_circle {
+        width: 80%;
+    }
+
+    .paragragh_div {
+        width: 60%;
+    }
+
+    .paragragh_div p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1480px) {
 
     .hero_text {
         font-size: 14px;
-        width: 40%;
+        width: 35%;
     }
 
     .cards {
@@ -876,37 +951,7 @@ footer {
         width: 20%;
     }
 
-    .img_text{
-        justify-content: center;
-    }
-} */
-
-@media (min-width: 1550px) {
-
-    .hero_text {
-        font-size: 14px;
-        width: 40%;
-    }
-
-    .cards {
-        gap: 60px;
-        height: 600px;
-    }
-
-    .paragragh_div {
-        font-size: 14px;
-        width: 50%;
-    }
-
-    .pic1 {
-        top: -200px;
-    }
-
-    .make_text {
-        width: 20%;
-    }
-
-    .img_text{
+    .img_text {
         justify-content: center;
     }
 }
